@@ -1,5 +1,5 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+title = "Médico Social"
+baseURL = "https://medicosocial1.pages.dev"
 theme = ["github.com/gohugo-ananke/ananke/v2"]
 
 defaultContentLanguage = "en"
@@ -16,14 +16,14 @@ pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a h
 contentDir = "content/en"
 languageCode = 'en-US'
 weight = 1
-title = "Ananke"
+title = "Médico Social"
 # languageDirection = 'rtl' for Right-To-Left languages
 
 [languages.fr]
 contentDir = "content/fr"
 languageCode = 'fr-FR'
 weight = 2
-title = "Ananke Fr"
+title = "Médico Social"
 
 [sitemap]
 changefreq = "monthly"
@@ -33,10 +33,10 @@ filename = "sitemap.xml"
 [params]
 mainSections = ["post"]
 text_color = ""
-author = "Victor Hugo" # default author, override via `author` in a posts front matter
+author = "Dr.Del Sur" # default author, override via `author` in a posts front matter
 favicon = ""
 site_logo = ""
-description = "The last theme you'll ever need. Maybe."
+description = "Información de salud para la gente"
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 background_color_class = "bg-black"
 # choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
