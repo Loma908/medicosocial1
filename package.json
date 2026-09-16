@@ -1,0 +1,22 @@
+{
+  "name": "@gohugo-ananke/template-hugo-mod",
+  "version": "0.0.1",
+  "description": "Hugo Module based template repository for the [Ananke theme](https://github.com/gohugo-ananke/ananke) for [GoHugo](https://gohugo.io/).",
+  "main": "index.js",
+  "scripts": {
+    "update": "hugo mod get -u ./... && hugo mod tidy",
+    "server": "hugo server --logLevel debug --templateMetrics --templateMetricsHints"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gohugo-ananke/template-hugo-mod.git"
+  },
+  "keywords": [],
+  "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gohugo-ananke/template-hugo-mod/issues"
+  },
+  "homepage": "https://github.com/gohugo-ananke/template-hugo-mod#readme"
+}
