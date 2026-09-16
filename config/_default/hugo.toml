@@ -2,7 +2,7 @@ title = "Médico Social"
 baseURL = "https://medicosocial1.pages.dev"
 theme = ["github.com/gohugo-ananke/ananke/v2"]
 
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 sectionPagesMenu = "main"
 enableRobotsTXT = true
 
