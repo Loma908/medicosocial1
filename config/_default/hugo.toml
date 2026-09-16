@@ -20,10 +20,10 @@ title = "Médico Social"
 # languageDirection = 'rtl' for Right-To-Left languages
 
 
-contentDir = "content/fr"
-languageCode = 'fr-FR'
-weight = 2
-title = "Médico Social"
+
+
+
+
 
 [sitemap]
 changefreq = "monthly"
