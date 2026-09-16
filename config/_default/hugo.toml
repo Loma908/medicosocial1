@@ -12,12 +12,7 @@ id = ''
 [pagination]
 pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 
-[languages.en]
-contentDir = "content/en"
-languageCode = 'en-US'
-weight = 1
-title = "Médico Social"
-# languageDirection = 'rtl' for Right-To-Left languages
+
 
 
 
