@@ -1,18 +1,8 @@
-baseURL = "https://medicosocial1.pages.dev/"
+baseURL = "/"
 languageCode = "es-es"
-title = "Médico Social"
-theme = ["github.com/adityatelange/hugo-PaperMod"]
+title = "Mi Sitio"
+theme = "Hugo-Octopress"
 
-[params]
-  env = "production"
-  title = "Médico Social"
-  description = "Información de salud para la gente"
-  author = "Loma908"
-
-  [params.homeInfoParams]
-    Title = "Bienvenido a Médico Social"
-    Content = "Información de salud para la gente. Aquí encontrarás artículos de interés."
-
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/Loma908"
+[module]
+  [[module.imports]]
+    path = "github.com/parsiya/Hugo-Octopress"
