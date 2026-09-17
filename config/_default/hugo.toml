@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "es-es"
 title = "Medico Social"
+theme = "kopi"
 
 [module]
   [[module.imports]]
