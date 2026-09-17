@@ -2,3 +2,7 @@ baseURL = "/"
 languageCode = "es-es"
 title = "Medico Social"
 theme = "Hugo-Octopress"
+
+[module]
+  [[module.imports]]
+    path = "github.com/parsiya/Hugo-Octopress"
