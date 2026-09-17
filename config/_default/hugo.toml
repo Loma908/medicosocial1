@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "es-es"
-title = "Mi Sitio"
+title = "Medico Social"
 theme = "Hugo-Octopress"
 
 [module]
