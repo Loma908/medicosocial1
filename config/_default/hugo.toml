@@ -2,7 +2,3 @@ baseURL = "/"
 languageCode = "es-es"
 title = "Medico Social"
 theme = "blowfish"
-
-[module]
-  [[module.imports]]
-    path = "github.com/nunocoracao/blowfish/v3"
