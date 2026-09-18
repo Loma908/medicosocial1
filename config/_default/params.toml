@@ -2,6 +2,7 @@
 colorScheme = "forest"
 defaultAppearance = "light"
 autoSwitchAppearance = true
+ mainSections = ["es/posts"]
 
 # Información del autor (la barra lateral)
 [author]
@@ -30,9 +31,8 @@ autoSwitchAppearance = true
 # Homepage (la página de inicio)
 [homepage]
   layout = "profile"
-  showRecentPosts = true
+  showRecent = true
   recentPostsLimit = 5
-  mainSections = ["es/posts"]
 
 # Cabecera
 [header]
