@@ -32,6 +32,7 @@ autoSwitchAppearance = true
   layout = "profile"
   showRecentPosts = true
   recentPostsLimit = 5
+  mainSections = ["es/posts"]
 
 # Cabecera
 [header]
