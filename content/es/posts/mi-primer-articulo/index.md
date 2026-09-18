@@ -9,6 +9,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showTableOfContents: true
+featured: true
 ---
 
 ## ¿Qué es un médico social?
