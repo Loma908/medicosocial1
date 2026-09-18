@@ -1,8 +1,7 @@
 baseURL = "/"
-languageCode = "es"
+defaultContentLanguage = "es"
 title = "Medico Social"
 
 [module]
   [[module.imports]]
     path = "github.com/nunocoracao/blowfish/v2"
-    
