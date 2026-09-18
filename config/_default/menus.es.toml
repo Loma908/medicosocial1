@@ -1,5 +1,5 @@
 [[main]]
-  name = "Inicio"
+  name = "Portada"
   pageRef = "/"
   weight = 10
 
