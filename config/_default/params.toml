@@ -8,9 +8,7 @@ autoSwitchAppearance = true
   name = "Dr.del Sur"
   headline = "Médico"
   bio = "Escribo sobre medicina social y salud pública."
-  links = [
-    { github = "https://github.com/Loma908" }
-  ]
+ 
   
 
 # Menú de navegación (los enlaces de arriba)
