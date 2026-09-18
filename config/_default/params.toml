@@ -37,4 +37,4 @@ autoSwitchAppearance = true
 
 # Cabecera
 [header]
-  layout = "basic"
+  layout = "left"
