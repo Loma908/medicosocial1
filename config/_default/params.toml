@@ -11,7 +11,7 @@ autoSwitchAppearance = true
   links = [
     { github = "https://github.com/Loma908" }
   ]
-  #image = "img/author.jpg" # Si tienes una foto, súbela a static/img/author.jpg
+  
 
 # Menú de navegación (los enlaces de arriba)
 [[mainMenu]]
