@@ -5,7 +5,7 @@ autoSwitchAppearance = true
 
 # Información del autor (la barra lateral)
 [author]
-  name = "Juan Carlos"
+  name = "Dr.del Sur"
   headline = "Médico"
   bio = "Escribo sobre medicina social y salud pública."
   links = [
