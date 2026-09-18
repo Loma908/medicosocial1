@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "es-es"
+languageCode = "es"
 title = "Medico Social"
 
 [module]
