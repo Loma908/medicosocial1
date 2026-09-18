@@ -1,1 +1,16 @@
+languageCode = "es-es"
+languageName = "Español"
+weight = 1
 
+[params]
+  dateFormat = "2 de enero de 2006"
+  description = "Un blog de medicina social"
+  copyright = "© 2026 Medico Social"
+
+[author]
+  name = "Juan Carlos"
+  headline = "Médico"
+  bio = "Escribo sobre medicina social y salud pública."
+  links = [
+    { github = "https://github.com/Loma908" }
+  ]
