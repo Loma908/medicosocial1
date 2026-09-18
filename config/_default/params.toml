@@ -2,7 +2,7 @@
 colorScheme = "forest"
 defaultAppearance = "light"
 autoSwitchAppearance = true
- mainSections = ["es/posts"]
+ mainSections = ["posts"]
 
 # Información del autor (la barra lateral)
 [author]
