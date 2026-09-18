@@ -14,18 +14,7 @@ autoSwitchAppearance = true
   
 
 # Menú de navegación (los enlaces de arriba)
-[[mainMenu]]
-  name = "Inicio"
-  pageRef = "/"
-  weight = 10
-[[mainMenu]]
-  name = "Artículos"
-  pageRef = "/posts"
-  weight = 20
-[[mainMenu]]
-  name = "Sobre mí"
-  pageRef = "/about"
-  weight = 30
+
 
 # Configuración del artículo (los posts)
 [article]
@@ -45,3 +34,7 @@ autoSwitchAppearance = true
   layout = "profile"
   showRecentPosts = true
   recentPostsLimit = 5
+
+# Cabecera
+[header]
+  layout = "fixed"
