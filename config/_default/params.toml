@@ -33,7 +33,13 @@ mainSections = ["posts"]
   layout = "profile"
   showRecent = true
   recentPostsLimit = 5
+  mainSections = ["posts"]
+  cardView = true
 
 # Cabecera
 [header]
   layout = "left"
+
+# Vista de lista (página de Artículos)
+[list]
+  cardView = true
