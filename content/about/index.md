@@ -7,4 +7,4 @@ draft: false
 Hola, soy el Dr. del Sur. Soy médico y este es mi espacio para escribir sobre medicina social y salud pública.
 
 Mi objetivo con este blog es compartir reflexiones, experiencias y conocimientos sobre cómo la medicina puede ir más allá del consultorio y convertirse en una herramienta de transformación social.
-![Descripción de la imagen](foto.jpg)
+![photo acerca de](foto.jpg)
