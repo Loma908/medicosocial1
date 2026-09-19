@@ -17,6 +17,8 @@ mainSections = ["posts"]
 
 # Configuración del artículo (los posts)
 [article]
+  showViews = true
+  showLikes = true
   showDate = true
   showAuthor = true
   showReadingTime = true
@@ -45,3 +47,13 @@ mainSections = ["posts"]
 [list]
   cardView = true
   showSummary = true   # <-- Añade esto
+
+[firebase]
+  apiKey = "AIzaSyBm07z7hAU6TlZVubrAlbfOjr3C3NUYmrA"
+  authDomain = "medicosocial1-b7e67.firebaseapp.com"
+  projectId = "medicosocial1-b7e67"
+  storageBucket = "medicosocial1-b7e67.firebasestorage.app"
+  messagingSenderId = "980788347502"
+  appId = "1:980788347502:web:773c228e9d66eb055cdc7f"
+  measurementId = "G-7TC934H0R2"
+  
