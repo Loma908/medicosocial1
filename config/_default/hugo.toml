@@ -1,6 +1,6 @@
 baseURL = "/"
 defaultContentLanguage = "es"
-title = "Medico Social"
+title = "Médico Social"
 
 [module]
   [[module.imports]]
