@@ -1,5 +1,5 @@
 # Apariencia general
-colorScheme = "forest"
+colorScheme = "avocado"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 mainSections = ["posts"]
