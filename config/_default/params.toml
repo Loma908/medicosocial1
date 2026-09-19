@@ -35,6 +35,7 @@ mainSections = ["posts"]
   recentPostsLimit = 5
   mainSections = ["posts"]
   cardView = true
+  showSummary = true   # <-- Añade esto
 
 # Cabecera
 [header]
