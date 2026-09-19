@@ -6,8 +6,8 @@ mainSections = ["posts"]
 
 # Información del autor (la barra lateral)
 [author]
-  name = "Dr.del Sur"
-  headline = "Médico"
+  name = "Dr.Del Sur"
+  #headline = "Médico"
   bio = "Escribo sobre medicina social y salud pública."
  
   
