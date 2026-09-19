@@ -12,6 +12,8 @@ showTableOfContents: true
 featured: true
 ---
 
+![Imagen del artículo](feature-primer.jpg)
+
 ## ¿Qué es un médico social?
 
 El médico social es un profesional de la salud que entiende que la enfermedad no solo se cura con medicamentos. Su mirada va más allá del consultorio: observa las condiciones de vida, el entorno familiar, el acceso a servicios básicos y los determinantes sociales que afectan la salud de las personas.
