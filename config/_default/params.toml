@@ -44,3 +44,4 @@ mainSections = ["posts"]
 # Vista de lista (página de Artículos)
 [list]
   cardView = true
+  showSummary = true   # <-- Añade esto
