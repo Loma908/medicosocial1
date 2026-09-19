@@ -22,7 +22,7 @@ El médico social es un profesional de la salud que entiende que la enfermedad n
 
 A diferencia del médico tradicional, el médico social trabaja **en y con la comunidad**. No espera a que los pacientes lleguen a su consulta, sino que sale a buscar los problemas donde ocurren. Su herramienta principal no es el estetoscopio, sino la **escucha activa** y el **trabajo en equipo** con otros profesionales.
 
-![trabajo preventivo en la comunidad](imagen1.jpg)
+![trabajo preventivo en la comunidad](image1.jpg)
 
 ## Los pilares de su trabajo
 
