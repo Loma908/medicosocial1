@@ -17,6 +17,8 @@
 }
 
 /* Reducir el tamaño del título principal (Dr. Del Sur) */
-#single_header h1 {
-  font-size: 1.75rem !important; /* Prueba con 2rem o 2.5rem */
+.prose h1,
+#single_header h1,
+article h1 {
+  font-size: 1.75rem !important;
 }
