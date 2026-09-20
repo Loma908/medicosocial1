@@ -51,3 +51,8 @@ header a,
 .home h1:first-of-type {
   display: none !important;
 }
+
+/* Ocultar el título del perfil SOLO en la página de inicio */
+article > header > h1 {
+  display: none !important;
+}
