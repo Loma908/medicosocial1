@@ -16,9 +16,6 @@
   color: #9ca3af !important;
 }
 
-/* Reducir el tamaño del título principal (Dr. Del Sur) */
-.prose h1,
-#single_header h1,
-article h1 {
+h1 {
   font-size: 1.75rem !important;
 }
