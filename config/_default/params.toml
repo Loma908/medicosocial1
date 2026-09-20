@@ -1,5 +1,5 @@
 # Apariencia general
-colorScheme = "avocado"
+colorScheme = "slate"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 mainSections = ["posts"]
