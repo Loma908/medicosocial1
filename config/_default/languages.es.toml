@@ -5,7 +5,7 @@ weight = 1
 [params]
   dateFormat = "2 de enero de 2006"
   description = "Un blog de medicina social"
-  copyright = "© 2026 Médico Social"
+  copyright = "© 2026 El Médico Social"
 
 [author]
   name = "Dr.Del Sur"
