@@ -39,7 +39,7 @@ mainSections = ["posts"]
   mainSections = ["posts"]
   cardView = true
   showSummary = true   # <-- Añade esto
-  showTitle = false 
+  showTitle = true 
 
 # Cabecera
 [header]
