@@ -40,3 +40,9 @@ header a,
 #site-header a:hover {
   color: #93c5fd !important; /* Azul claro al pasar el ratón */
 }
+
+/* Ocultar el título del perfil SOLO en la página de inicio */
+.home #profile h1,
+.home .profile h1 {
+  display: none !important;
+}
