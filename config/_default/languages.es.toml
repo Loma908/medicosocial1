@@ -8,7 +8,7 @@ weight = 1
   copyright = "© 2026 El Médico Social"
 
 [author]
-  name = "Dr.Del Sur"
+  name = "Dr.del Sur"
   bio = "Escribo sobre medicina social y salud pública."
   links = [
     { github = "https://github.com/Loma908" }
