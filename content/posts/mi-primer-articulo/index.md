@@ -4,7 +4,7 @@ date: 2026-09-18
 draft: false
 description: "nose donde aparece."
 summary: "A diferencia del médico tradicional, el médico social trabaja **en y con la comunidad**."
-tags: ["medicina social", "salud pública", "comunidad"]
+tags: ["medicina social", "salud pública"]
 categories: ["Reflexiones"]
 showAuthor: true
 showDate: true
