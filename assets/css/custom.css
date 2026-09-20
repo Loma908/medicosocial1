@@ -1,9 +1,27 @@
-/* Mejorar el contraste del menú y títulos en modo oscuro */
+/* Reducir el tamaño del título principal */
+h1 {
+  font-size: 1.75rem !important;
+}
+
+/* Fondo oscuro para la barra de navegación */
+#site-header {
+  background-color: #1e293b !important;
+  padding: 0.5rem 1rem !important;
+}
+
+#site-header a,
+#site-header .text-neutral-500,
+#site-header .text-neutral-700 {
+  color: #ffffff !important;
+}
+
+#site-header a:hover {
+  color: #93c5fd !important;
+}
+
+/* Mejorar el contraste en modo oscuro */
 .dark #site-header a,
-.dark nav a,
-.dark .text-neutral-900,
-.dark .text-neutral-800,
-.dark .text-neutral-700 {
+.dark nav a {
   color: #e5e7eb !important;
 }
 
@@ -16,33 +34,8 @@
   color: #9ca3af !important;
 }
 
-/* Reducir el tamaño del título principal */
-h1 {
-  font-size: 1rem !important;
-}
-
-/* Fondo oscuro para la barra de navegación */
-#site-header,
-header {
-  background-color: #1e293b !important; /* Azul oscuro, como en la imagen */
-  padding: 0.5rem 1rem !important;
-}
-
-/* Color del texto del menú y del título sobre el fondo oscuro */
-#site-header a,
-header a,
-#site-header .text-neutral-500,
-#site-header .text-neutral-700 {
-  color: #ffffff !important; /* Texto blanco para que contraste */
-}
-
-/* Efecto al pasar el ratón por encima de los enlaces */
-#site-header a:hover {
-  color: #93c5fd !important; /* Azul claro al pasar el ratón */
-}
-
 /* Ocultar el título del perfil SOLO en la página de inicio */
-.home #profile h1,
-.home .profile h1 {
+.home .profile h1,
+.home #profile h1 {
   display: none !important;
 }
