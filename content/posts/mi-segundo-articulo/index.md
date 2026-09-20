@@ -3,7 +3,7 @@ title: "El Debilitamiento de la Salud Pública: Cómo el Auge de la Medicina Pag
 date: 2026-09-18
 draft: false
 description: "Análisis sobre cómo el debilitamiento de la salud pública fortalece la medicina pagada y afecta a toda la población, no solo a los más vulnerables."
-tags: ["salud pública", "medicina pagada", "inequidad", "determinantes sociales", "derecho a la salud"]
+tags: ["salud pública", "medicina pagada", "inequidad"]
 categories: ["Reflexiones"]
 showAuthor: true
 showDate: true
