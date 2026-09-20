@@ -24,6 +24,7 @@ mainSections = ["posts"]
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
+  showComments = true
 
 # Pie de página
 [footer]
