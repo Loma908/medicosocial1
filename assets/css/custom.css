@@ -45,11 +45,11 @@ header a,
 /* Mejorar el contraste en modo oscuro */
 .dark #site-header a,
 .dark nav a {
-  color: #38761d !important;/* Mejorar el contraste en modo oscuro #e5e7eb */
+  color: #38761d !important;/* color del menu  en modo oscuro #e5e7eb */
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #2563eb !important;/* transparencia  donde esta los titulos de articulos Mejorar el contraste en modo oscuro  #38761d */
+  color: #736997 !important;/* transparencia  donde esta los titulos de articulos Mejorar el contraste en modo oscuro  #38761d */
 }
 
 .dark .text-neutral-500,
