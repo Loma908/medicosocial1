@@ -23,7 +23,7 @@ h1 {
 /* Fondo oscuro para la barra de navegación */
 #site-header,
 header {
-  background-color: #ffffff !important; /* Azul oscuro, como en la imagen #1e293b */
+  background-color: #e5e7eb !important; /* Azul oscuro, como en la imagen #1e293b */
   padding: 0.5rem 1rem !important;
 }
 
