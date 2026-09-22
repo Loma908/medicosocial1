@@ -67,3 +67,14 @@ article > header.relative > h1 {
 article > header.relative {
   display: none !important;
 }
+
+/* Logo centrado ARRIBA del título "El Médico Social" */
+.main-menu {
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+}
+.main-menu > div:first-child {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
