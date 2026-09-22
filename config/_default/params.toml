@@ -1,7 +1,7 @@
 # Apariencia general
 colorScheme = "slate"
 defaultAppearance = "light"
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 mainSections = ["posts"]
 
 # Información del autor (la barra lateral)
