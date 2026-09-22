@@ -62,3 +62,8 @@ article > header > h1 {
 article > header.relative > h1 {
   display: none !important;
 }
+
+/* Ocultar el bloque del perfil solo en la página de inicio */
+article > header.relative {
+  display: none !important;
+}
