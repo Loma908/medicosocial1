@@ -8,12 +8,12 @@
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #5eead4 !important; /* TAMPOCO SE DE QUE SERA #38761d */
+  color: #736997 !important;/* color de titulo， subtitulos del articulos en en modo oscuro y donde  dice el dr del sur   #38761d */
 }
 
 .dark .text-neutral-500,
 .dark .text-neutral-600 {
-  color: #9ca3af  !important; /* NO SE TODABIA QUE ES #9ca3af  */
+  color: #facc15 !important; /* #9ca3af  da color a vistas y like y fechas que esta a lado */
 }
 
 h1 {
@@ -46,10 +46,6 @@ header a,
 .dark #site-header a,
 .dark nav a {
   color: #38761d !important;/* color del menu  en modo oscuro asi como ese que parece indice #e5e7eb */
-}
-
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #736997 !important;/* color de titulo， subtitulos del articulos en en modo oscuro y donde  dice el dr del sur   #38761d */
 }
 
 .dark .text-neutral-500,
