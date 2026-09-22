@@ -23,7 +23,7 @@ h1 {
 /* Fondo oscuro para la barra de navegación */
 #site-header,
 header {
-  background-color: #e5e7eb !important; /* Azul oscuro, como en la imagen #1e293b */
+  background-color: #dc2626 !important; /* este es el que estaba #e5e7eb Azul oscuro, como en la imagen #1e293b */
   padding: 0.5rem 1rem !important;
 }
 
@@ -32,7 +32,7 @@ header {
 header a,
 #site-header .text-neutral-500,
 #site-header .text-neutral-700 {
-  color: #0f766e !important; /* Texto blanco para que contraste #ffffff */
+  color: #0f766e !important; /* color deL menu, titulos y la parte que dice *medico social en modo NO OSCURO #ffffff */
 }
 
 /* Efecto al pasar el ratón por encima de los enlaces */
