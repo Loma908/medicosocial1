@@ -10,12 +10,3 @@ title = "El Médico Social"
   colorScheme = "blowfish"
   enableSearch = true
   logo = "img/logo.png"
-
-[footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = false
-  showScrollToTop = true
-
-  
