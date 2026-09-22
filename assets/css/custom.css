@@ -4,11 +4,11 @@
 .dark .text-neutral-900,
 .dark .text-neutral-800,
 .dark .text-neutral-700 {
-  color: #e5e7eb !important;
+  color: #ec4899 !important;/* #e5e7eb */
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #5eead4 !important; /* Fondo oscuro para la barra de navegación #38761d */
+  color: #5eead4 !important; /* TAMPOCO SE DE QUE SERA #38761d */
 }
 
 .dark .text-neutral-500,
