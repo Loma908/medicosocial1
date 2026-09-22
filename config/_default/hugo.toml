@@ -5,3 +5,8 @@ title = "El Médico Social"
 [module]
   [[module.imports]]
     path = "github.com/nunocoracao/blowfish/v2"
+
+[params] /* añaido para logo*/
+  colorScheme = "blowfish"
+  enableSearch = true
+  logo = "img/logo.png"
