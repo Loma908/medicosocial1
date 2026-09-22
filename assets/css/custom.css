@@ -58,7 +58,7 @@ article > header > h1 {
   display: block !important; /* actua sobre dr del sur y sobre titulos cuando se entra a leer articul*/
 }
 
-/* Ocultar el título/nombre del perfil solo en la página de inicio */
-#profile h1 {
+/* Ocultar SOLO el nombre del perfil en la página de inicio */
+article > header.relative > h1 {
   display: none !important;
 }
