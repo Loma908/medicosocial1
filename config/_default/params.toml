@@ -30,8 +30,7 @@ mainSections = ["posts"]
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = true
-  autoSwitchAppearance = false
+  showAppearanceSwitcher = false
 
 # Homepage (la página de inicio)
 [homepage]
