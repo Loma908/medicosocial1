@@ -4,7 +4,7 @@
 .dark .text-neutral-900,
 .dark .text-neutral-800,
 .dark .text-neutral-700 {
-  color: #ec4899 !important;/* #e5e7eb */
+  color: #ec4899 !important;/* #e5e7eb color lupa y activa de modo oscuro y titulo de articulos cuando se entra a leer en modo oscuro*/
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
