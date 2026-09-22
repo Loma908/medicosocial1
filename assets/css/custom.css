@@ -8,12 +8,12 @@
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #38761d !important;
+  color: #5eead4 !important; /* Fondo oscuro para la barra de navegación #38761d */
 }
 
 .dark .text-neutral-500,
 .dark .text-neutral-600 {
-  color: #9ca3af  !important; /* NO SE TODABIA Fondo oscuro para la barra de navegación #9ca3af  */
+  color: #9ca3af  !important; /* NO SE TODABIA QUE ES #9ca3af  */
 }
 
 h1 {
