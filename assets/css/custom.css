@@ -13,7 +13,7 @@
 
 .dark .text-neutral-500,
 .dark .text-neutral-600 {
-  color: #9ca3af !important;
+  color: #fdba74 !important; /* Fondo oscuro para la barra de navegación #9ca3af  */
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 /* Fondo oscuro para la barra de navegación */
 #site-header,
 header {
-  background-color: #dc2626 !important; /* este es el que estaba #e5e7eb Azul oscuro, como en la imagen #1e293b */
+  background-color: #dc2626 !important; /* fondo de barra horizontal de menu y fondo de titulos tanto EN MODO OSCURO Y NO OSCURO  #e5e7eb AA #1e293b */
   padding: 0.5rem 1rem !important;
 }
 
