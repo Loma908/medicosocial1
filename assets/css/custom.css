@@ -76,5 +76,5 @@ article > header.relative {
 .main-menu > div:first-child {
   flex-basis: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
