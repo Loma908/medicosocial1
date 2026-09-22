@@ -57,8 +57,3 @@ header a,
 article > header > h1 {
   display: block !important; /* actua sobre dr del sur y sobre titulos cuando se entra a leer articul*/
 }
-
-/* Ocultar el título SOLO en la página de inicio */
-body.home article > header > h1 {
-  display: none !important;
-}
