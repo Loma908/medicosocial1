@@ -32,7 +32,7 @@ header {
 header a,
 #site-header .text-neutral-500,
 #site-header .text-neutral-700 {
-  color: #333333 !important; /* Texto blanco para que contraste #ffffff */
+  color: #0f766e !important; /* Texto blanco para que contraste #ffffff */
 }
 
 /* Efecto al pasar el ratón por encima de los enlaces */
@@ -45,11 +45,11 @@ header a,
 /* Mejorar el contraste en modo oscuro */
 .dark #site-header a,
 .dark nav a {
-  color: #38761d !important;/* color del menu  en modo oscuro #e5e7eb */
+  color: #38761d !important;/* color del menu  en modo oscuro asi como ese que parece indice #e5e7eb */
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #736997 !important;/* transparencia  donde esta los titulos de articulos Mejorar el contraste en modo oscuro  #38761d */
+  color: #736997 !important;/* color de titulo， subtitulos del articulos en en modo oscuro y donde  dice el dr del sur   #38761d */
 }
 
 .dark .text-neutral-500,
