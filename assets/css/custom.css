@@ -23,7 +23,7 @@ h1 {
 /* Fondo oscuro para la barra de navegación */
 #site-header,
 header {
-  background-color: #dc2626 !important; /* fondo de barra horizontal de menu y fondo de titulos tanto EN MODO OSCURO Y NO OSCURO  #e5e7eb AA #1e293b */
+  background-color:  #e5e7eb !important; /* fondo de barra horizontal de menu y fondo de titulos tanto EN MODO OSCURO Y NO OSCURO  #e5e7eb AA #1e293b */
   padding: 0.5rem 1rem !important;
 }
 
