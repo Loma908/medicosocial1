@@ -15,7 +15,7 @@ title = "El Médico Social"
   showMenu = true
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = false    <-- esta línea
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
   
