@@ -54,7 +54,7 @@ header a,
 
 .dark .text-neutral-500,
 .dark .text-neutral-600 {
-  color: #9ca3af !important;
+  color: #facc15 !important; /* #9ca3af no se que sera todabia */
 }
 
 /* Ocultar el título del perfil SOLO en la página de inicio */
