@@ -1,7 +1,7 @@
 # Apariencia general
 colorScheme = "slate"
 defaultAppearance = "light"
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 mainSections = ["posts"]
 
 # Información del autor (la barra lateral)
@@ -31,6 +31,7 @@ mainSections = ["posts"]
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
+  autoSwitchAppearance = false
 
 # Homepage (la página de inicio)
 [homepage]
