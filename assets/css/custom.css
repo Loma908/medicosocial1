@@ -78,3 +78,59 @@ article > header.relative {
   display: flex;
   justify-content: flex-start;
 }
+
+/*DE AQUI EN ADELANTE ESTA CUADRITOS*/
+
+/* ===== Portada: artículos a la izquierda, alertas a la derecha ===== */
+.portada-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .portada-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Diseño de las cajas de alerta ===== */
+.alerta-box {
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-top: 5px solid #9ca3af;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.alerta-urgente { border-top-color: #dc2626; }
+.alerta-urgente .alerta-titulo { color: #dc2626; }
+.alerta-aviso   { border-top-color: #d97706; }
+.alerta-aviso .alerta-titulo { color: #d97706; }
+.alerta-info    { border-top-color: #2563eb; }
+.alerta-info .alerta-titulo { color: #2563eb; }
+
+.alerta-titulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+.alerta-texto {
+  font-size: 0.95rem;
+  margin: 0 0 0.75rem 0;
+  color: #374151;
+}
+.alerta-boton {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  background-color: #111827;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.alerta-boton:hover {
+  background-color: #374151;
+}
