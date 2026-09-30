@@ -1,30 +1,88 @@
+<!-- ==================================================
+WIDGETS DE LA PORTADA
+Edita SOLO el texto en espanol.
+NO toques las etiquetas ni las lineas con llaves
+================================================== -->
 
-<div class="alerta-box alerta-urgente">
-<h3 class="alerta-titulo">🚨 Actualidad</h3>
-<p class="alerta-texto">La fe incendia la campaña: ¿puede la religión decidir las elecciones de Brasil?</p>
-<a class="alerta-boton" href="https://actualidad.rt.com/actualidad/629834-fe-incendia-campana-puede-religion-decidir-elecciones-brasil">Leer mas..</a>
+<!-- WIDGET 1: NOTICIAS -->
+<div class="widget widget-noticias">
+<div class="widget-pestanas">
+<button class="pestana activa" onclick="cambiarPestana(event, 'noticias-salud')">Al Dia, Noticias de salud</button>
+<button class="pestana" onclick="cambiarPestana(event, 'prensa-cubana')">De la prensa cubana</button>
+</div>
+<div id="noticias-salud" class="pestana-contenido activo">
+<ul class="lista-noticias">
+<li><a href="/posts/">Denuncian la falta de acceso a vacunas en zonas de conflicto</a></li>
+<li><a href="/posts/">Segundo refuerzo contra COVID, util en poblacion vulnerable</a></li>
+<li><a href="/posts/">Detectada una variante recombinante del SARS-CoV-2</a></li>
+<li><a href="/posts/">Una persona muere cada 48 segundos a causa del hambre</a></li>
+<li><a href="/posts/">La viruela del mono es una enfermedad benigna pero molesta</a></li>
+</ul>
+</div>
+<div id="prensa-cubana" class="pestana-contenido">
+<ul class="lista-noticias">
+<li><a href="/posts/">Escribe aqui tu primer titular de prensa cubana</a></li>
+<li><a href="/posts/">Escribe aqui tu segundo titular</a></li>
+<li><a href="/posts/">Escribe aqui tu tercer titular</a></li>
+</ul>
+</div>
 </div>
 
-<div class="alerta-box alerta-urgente">
-<h3 class="alerta-titulo">🚨 Consulta de Urgencia</h3>
-<p class="alerta-texto">Horarios extendidos disponibles para atención inmediata.</p>
-<a class="alerta-boton" href="/posts/">Ver horarios</a>
+<!-- WIDGET 2: PROXIMOS EVENTOS -->
+<div class="widget widget-eventos">
+<div class="eventos-header">
+<span class="eventos-icono">📅</span>
+<span class="eventos-titulo">PROXIMOS EVENTOS</span>
+</div>
+<div class="evento-item">
+<h4 class="evento-nombre">XXII Jornada Cientifica Provincial en Ciencias de la Informacion</h4>
+<p class="evento-fecha">Escribe aqui la fecha del evento</p>
+<a class="evento-enlace" href="/posts/">Mas informacion</a>
+</div>
 </div>
 
-<div class="alerta-box alerta-urgente">
-<h3 class="alerta-titulo">🚨 Consulta de Urgencia</h3>
-<p class="alerta-texto">Horarios extendidos disponibles para atención inmediata.</p>
-<a class="alerta-boton" href="/posts/">Ver horarios</a>
+<!-- WIDGET 3: NUESTROS PARTNERS -->
+<div class="widget widget-partners">
+<h3 class="partners-titulo">Nuestros partners</h3>
+<div class="partner-item">
+<img class="partner-img" src="/img/logo1.png" alt="Partner 1">
+<div class="partner-info">
+<span class="partner-etiqueta">Contenido destacado</span>
+<p class="partner-texto">Escribe aqui la descripcion de tu primer partner o patrocinador.</p>
+<span class="partner-por">Patrocinado por: Nombre</span>
+</div>
+</div>
+<div class="partner-item">
+<img class="partner-img" src="/img/logo2.png" alt="Partner 2">
+<div class="partner-info">
+<span class="partner-etiqueta">Contenido destacado</span>
+<p class="partner-texto">Escribe aqui la descripcion de tu segundo partner.</p>
+<span class="partner-por">Patrocinado por: Nombre</span>
+</div>
+</div>
+<div class="partner-item">
+<img class="partner-img" src="/img/logo3.png" alt="Partner 3">
+<div class="partner-info">
+<span class="partner-etiqueta">Contenido destacado</span>
+<p class="partner-texto">Escribe aqui la descripcion de tu tercer partner.</p>
+<span class="partner-por">Patrocinado por: Nombre</span>
+</div>
+</div>
 </div>
 
-<div class="alerta-box alerta-urgente">
-<h3 class="alerta-titulo">🚨 Consulta de Urgencia</h3>
-<p class="alerta-texto">Horarios extendidos disponibles para atención inmediata.</p>
-<a class="alerta-boton" href="/posts/">Ver horarios</a>
-</div>
-
-<div class="alerta-box alerta-urgente">
-<h3 class="alerta-titulo">🚨 Consulta de Urgencia</h3>
-<p class="alerta-texto">Horarios extendidos disponibles para atención inmediata.</p>
-<a class="alerta-boton" href="/posts/">Ver horarios</a>
-</div>
+<!-- Script simple para las pestanas -->
+<script>
+function cambiarPestana(evt, nombre) {
+var i, contenido, pestanas;
+contenido = document.getElementsByClassName("pestana-contenido");
+for (i = 0; i < contenido.length; i++) {
+contenido[i].classList.remove("activo");
+}
+pestanas = document.getElementsByClassName("pestana");
+for (i = 0; i < pestanas.length; i++) {
+pestanas[i].classList.remove("activa");
+}
+document.getElementById(nombre).classList.add("activo");
+evt.currentTarget.classList.add("activa");
+}
+</script>
