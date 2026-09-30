@@ -162,7 +162,7 @@ article > header.relative {
   background-color: #374151;
 }
 
-/* Hacer la columna de artículos más ancha */
+/* Hacer la columna de artículos MUCHO más ancha */
 .portada-grid {
-  grid-template-columns: 3fr 1fr !important;
+  grid-template-columns: 4fr 1fr !important;
 }
