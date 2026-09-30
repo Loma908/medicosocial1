@@ -163,3 +163,20 @@ article > header.relative {
 .portada-grid section article > div {
   min-width: 200px;
 }
+
+/* ============================================================
+   9. ARREGLAR MARGENES SUPERIOR 
+   (DE LAS ALERTAS)
+   ============================================================ */
+
+/* Bajar las alertas al nivel de las imágenes */
+.portada-alertas {
+  margin-top: 12rem; /* ajusta este valor según necesites */
+}
+
+/* En celulares, quitar el margen para que se vea normal */
+@media (max-width: 768px) {
+  .portada-alertas {
+    margin-top: 0;
+  }
+}
