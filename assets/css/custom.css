@@ -171,7 +171,7 @@ article > header.relative {
 
 /* Bajar las alertas al nivel de las imágenes */
 .portada-alertas {
-  margin-top: 5rem; /* ajusta este valor según necesites */
+  margin-top: 8rem; /* ajusta este valor según necesites */
 }
 
 /* En celulares, quitar el margen para que se vea normal */
