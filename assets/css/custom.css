@@ -131,6 +131,33 @@ article > header.relative {
   color: #ffffff !important;
   text-decoration: none;
 }
+
+/* ===== Arreglar el texto de los artículos recientes ===== */
+.portada-grid section article {
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.portada-grid section article h2,
+.portada-grid section article h3 {
+  word-break: normal;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+/* Forzar que los títulos ocupen el ancho disponible */
+.portada-grid section article > div {
+  min-width: 200px;
+}
+
+/* En móviles, permitir scroll horizontal si es necesario */
+@media (max-width: 768px) {
+  .portada-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .alerta-boton:hover {
   background-color: #374151;
 }
