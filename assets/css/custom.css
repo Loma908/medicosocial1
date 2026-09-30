@@ -84,7 +84,7 @@ article > header.relative {
 /* ===== Portada: artículos a la izquierda, alertas a la derecha ===== */
 .portada-grid {
   display: grid;
-  grid-template-columns: 7fr 3fr;
+  grid-template-columns: 4fr 1fr;
   gap: 1.5rem;
   align-items: start;
 }
