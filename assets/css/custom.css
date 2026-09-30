@@ -1,100 +1,101 @@
-/* Mejorar el contraste del menú y títulos en modo oscuro */
+/* ============================================================
+   EL MÉDICO SOCIAL - CSS PERSONALIZADO
+   Organizado por secciones para fácil edición
+   ============================================================ */
+
+/* ============================================================
+   1. BARRA DE NAVEGACIÓN (HEADER) - MODO CLARO
+   ============================================================ */
+#site-header,
+header {
+  background-color: #e5e7eb !important;
+  padding: 0.5rem 1rem !important;
+}
+
+#site-header a,
+header a,
+#site-header .text-neutral-500,
+#site-header .text-neutral-700 {
+  color: #0f766e !important;
+}
+
+#site-header a:hover {
+  color: #93c5fd !important;
+}
+
+/* ============================================================
+   2. BARRA DE NAVEGACIÓN - MODO OSCURO
+   ============================================================ */
+.dark #site-header a,
+.dark nav a {
+  color: #38761d !important;
+}
+
+.dark #site-header a:hover,
+.dark nav a:hover {
+  color: #93c5fd !important;
+}
+
+/* ============================================================
+   3. TÍTULOS Y TEXTOS EN MODO OSCURO
+   ============================================================ */
 .dark #site-header a,
 .dark nav a,
 .dark .text-neutral-900,
 .dark .text-neutral-800,
 .dark .text-neutral-700 {
-  color: #ec4899 !important;/* #e5e7eb color lupa y activa de modo oscuro y titulo de articulos cuando se entra a leer en modo oscuro*/
+  color: #ec4899 !important;
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  color: #736997 !important;/* color de titulo， subtitulos del articulos en en modo oscuro y donde  dice el dr del sur   #38761d */
+  color: #736997 !important;
 }
 
 .dark .text-neutral-500,
 .dark .text-neutral-600 {
-  color: #facc15 !important; /* #9ca3af  da color a vistas y like y fechas que esta a lado */
+  color: #facc15 !important;
 }
 
-h1 {
-  font-size: 1rem !important;
-}
-
-/* Fondo oscuro para la barra de navegación */
-#site-header,
-header {
-  background-color:  #e5e7eb !important; /* fondo de barra horizontal de menu y fondo de titulos tanto EN MODO OSCURO Y NO OSCURO  #e5e7eb AA #1e293b */
-  padding: 0.5rem 1rem !important;
-}
-
-/* Color del texto del menú y del título sobre el fondo oscuro */
-#site-header a,
-header a,
-#site-header .text-neutral-500,
-#site-header .text-neutral-700 {
-  color: #0f766e !important; /* color deL menu, titulos y la parte que dice *medico social en modo NO OSCURO #ffffff */
-}
-
-/* Efecto al pasar el ratón por encima de los enlaces */
-#site-header a:hover {
-  color: #93c5fd !important; /* Azul claro al pasar el ratón */
-}
-
-/*desde aca valorar*/
-
-/* Mejorar el contraste en modo oscuro */
-.dark #site-header a,
-.dark nav a {
-  color: #38761d !important;/* color del menu  en modo oscuro asi como ese que parece indice #e5e7eb */
-}
-
-.dark .text-neutral-500,
-.dark .text-neutral-600 {
-  color: #facc15 !important; /* #9ca3af  da color a vistas y like y fechas que esta a lado */
-}
-
-/* Ocultar el título del perfil SOLO en la página de inicio */
-article > header > h1 {
-  display: block !important; /* actua sobre dr del sur y sobre titulos cuando se entra a leer articul*/
-}
-
-/* Ocultar SOLO el nombre del perfil en la página de inicio */
-article > header.relative > h1 {
-  display: none !important;
-}
-
-/* Ocultar el bloque del perfil solo en la página de inicio */
+/* ============================================================
+   4. OCULTAR EL BLOQUE DEL PERFIL EN LA PORTADA
+   ============================================================ */
 article > header.relative {
   display: none !important;
 }
 
-/* Logo centrado ARRIBA del título "El Médico Social" */
+/* ============================================================
+   5. LOGO ARRIBA A LA IZQUIERDA DEL TÍTULO
+   ============================================================ */
 .main-menu {
   flex-wrap: wrap;
   row-gap: 0.5rem;
 }
+
 .main-menu > div:first-child {
   flex-basis: 100%;
   display: flex;
   justify-content: flex-start;
 }
 
-/*DE AQUI EN ADELANTE ESTA CUADRITOS*/
-
-/* ===== Portada: artículos a la izquierda, alertas a la derecha ===== */
+/* ============================================================
+   6. PORTADA: ARTÍCULOS A LA IZQUIERDA, ALERTAS A LA DERECHA
+   ============================================================ */
 .portada-grid {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 1fr !important;
   gap: 1.5rem;
   align-items: start;
 }
+
 @media (max-width: 768px) {
   .portada-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 }
 
-/* ===== Diseño de las cajas de alerta ===== */
+/* ============================================================
+   7. DISEÑO DE LAS CAJAS DE ALERTA
+   ============================================================ */
 .alerta-box {
   border-radius: 0.75rem;
   padding: 1rem 1.25rem;
@@ -104,11 +105,14 @@ article > header.relative {
   border-top: 5px solid #9ca3af;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
+
 .alerta-urgente { border-top-color: #dc2626; }
 .alerta-urgente .alerta-titulo { color: #dc2626; }
-.alerta-aviso   { border-top-color: #d97706; }
+
+.alerta-aviso { border-top-color: #d97706; }
 .alerta-aviso .alerta-titulo { color: #d97706; }
-.alerta-info    { border-top-color: #2563eb; }
+
+.alerta-info { border-top-color: #2563eb; }
 .alerta-info .alerta-titulo { color: #2563eb; }
 
 .alerta-titulo {
@@ -116,11 +120,13 @@ article > header.relative {
   font-weight: 700;
   margin: 0 0 0.5rem 0;
 }
+
 .alerta-texto {
   font-size: 0.95rem;
   margin: 0 0 0.75rem 0;
   color: #374151;
 }
+
 .alerta-boton {
   display: inline-block;
   font-size: 0.85rem;
@@ -132,7 +138,14 @@ article > header.relative {
   text-decoration: none;
 }
 
-/* ===== Arreglar el texto de los artículos recientes ===== */
+.alerta-boton:hover {
+  background-color: #374151;
+}
+
+/* ============================================================
+   8. ARREGLAR TÍTULOS DE ARTÍCULOS RECIENTES
+   (evita que se partan letra por letra)
+   ============================================================ */
 .portada-grid section article {
   min-width: 0;
   overflow-wrap: break-word;
@@ -147,22 +160,6 @@ article > header.relative {
   hyphens: auto;
 }
 
-/* Forzar que los títulos ocupen el ancho disponible */
 .portada-grid section article > div {
   min-width: 200px;
-}
-
-/* En móviles, permitir scroll horizontal si es necesario */
-@media (max-width: 768px) {
-  .portada-grid {
-    grid-template-columns: 1fr;
-  }
-}
-.alerta-boton:hover {
-  background-color: #374151;
-}
-
-/* Hacer la columna de artículos MUCHO más ancha */
-.portada-grid {
-  grid-template-columns: 4fr 1fr !important;
 }
