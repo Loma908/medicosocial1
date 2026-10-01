@@ -82,7 +82,7 @@ article > header.relative {
    ============================================================ */
 .portada-grid {
   display: grid;
-  grid-template-columns: 3fr 1fr; !important;
+  grid-template-columns: 3fr 3fr; !important;
   gap: 1.5rem;
   align-items: start;
 }
