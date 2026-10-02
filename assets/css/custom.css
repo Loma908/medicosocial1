@@ -269,7 +269,7 @@ color: #9ca3af;
 
 /* ===== Hacer títulos de noticias más intensos y negritas ===== */
 .lista-noticias li a {
-  font-weight: 800 !important; /* Negrita extra-fuerte */
+  font-weight: 700 !important; /* Negrita extra-fuerte */
   color: #111827 !important; /* Negro muy intenso */
   font-size: 0.8rem; /* Un poco más grande */
 }
