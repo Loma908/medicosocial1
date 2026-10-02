@@ -3,7 +3,7 @@ title: "La Salud Olvidada: Cuando la Gente deja de ser Prioridad"
 date: 2026-10-01
 draft: false
 description: "Reflexión sobre cómo la salud de la gente común ha sido olvidada por los sistemas políticos y económicos, y por qué es urgente volver a ponerla en el centro."
-tags: ["salud pública", "abandono", "inequidad", "derecho a la salud", "comunidad"]
+tags: ["salud pública",]
 categories: ["Reflexiones"]
 showAuthor: true
 showDate: true
