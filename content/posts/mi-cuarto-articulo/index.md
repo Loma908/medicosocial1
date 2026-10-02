@@ -3,7 +3,7 @@ title: "El Cáncer en la Vejez: La Pandemia Silenciosa que Nadie Quiere Ver"
 date: 2026-10-01
 draft: false
 description: "Reflexión sobre el cáncer en las personas mayores, una realidad frecuentemente ignorada por los sistemas de salud, la investigación y la sociedad."
-tags: ["cáncer", "vejez", "geriatría", "salud pública", "edadismo", "derecho a la salud"]
+tags: ["cáncer",]
 categories: ["Reflexiones"]
 showAuthor: true
 showDate: true
