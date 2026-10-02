@@ -267,8 +267,14 @@ color: #9ca3af;
    9. COLOR DE LETRAS DE ALERTAS DE NOTICIAS
    ============================================================ */
 
-/* ===== Hacer títulos de alertas más negros y en negrita ===== */
-.alerta-titulo {
-  color: #000000 !important; 
-  font-weight: 800 !important; 
+/* ===== Hacer títulos de noticias más intensos y negritas ===== */
+.lista-noticias li a {
+  font-weight: 800 !important; /* Negrita extra-fuerte */
+  color: #111827 !important; /* Negro muy intenso */
+  font-size: 1.05rem; /* Un poco más grande */
 }
+
+.lista-noticias li a:hover {
+  color: #dc2626 !important; /* Rojo al pasar el mouse */
+}
+
