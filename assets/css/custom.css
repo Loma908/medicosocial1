@@ -251,3 +251,14 @@ line-height: 1.3;
 font-size: 0.75rem;
 color: #9ca3af;
 }
+
+/* ============================================================
+   8. REDUCIR TAMANO DE TITULOS DE ARTICULOS RECIENTES
+   ============================================================ */
+
+/* Reducir tamaño de títulos de artículos recientes */
+.portada-grid section article h2,
+.portada-grid section article h3 {
+  font-size: 1rem !important;
+  line-height: 1.3;
+}
