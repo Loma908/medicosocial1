@@ -262,3 +262,13 @@ color: #9ca3af;
   font-size: 1rem !important;
   line-height: 1.3;
 }
+
+/* ============================================================
+   9. COLOR DE LETRAS DE ALERTAS DE NOTICIAS
+   ============================================================ */
+
+/* ===== Hacer títulos de alertas más negros y en negrita ===== */
+.alerta-titulo {
+  color: #000000 !important; /* Negro puro */
+  font-weight: 800 !important; /* Negrita extra (más fuerte que bold) */
+}
