@@ -269,6 +269,6 @@ color: #9ca3af;
 
 /* ===== Hacer títulos de alertas más negros y en negrita ===== */
 .alerta-titulo {
-  color: #000000 !important; /* Negro puro */
-  font-weight: 800 !important; /* Negrita extra (más fuerte que bold) */
+  color: #000000 !important; 
+  font-weight: 800 !important; 
 }
