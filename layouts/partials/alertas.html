@@ -1,89 +1,90 @@
 <!-- ==================================================
 WIDGETS DE LA PORTADA
-Edita SOLO el texto en espanol.
-NO toques las etiquetas ni las lineas con llaves
+Edita SOLO el texto en español.
+NO toques las etiquetas ni las líneas con llaves
 ================================================== -->
 
 <!-- WIDGET 1: NOTICIAS -->
 <div class="widget widget-noticias">
-<div class="widget-pestanas">
-<button class="pestana activa" onclick="cambiarPestana(event, 'noticias-salud')">Al Dia, Noticias de salud</button>
-<button class="pestana" onclick="cambiarPestana(event, 'prensa-cubana')">De la prensa ecuatoriana</button>
-</div>
-<div id="noticias-salud" class="pestana-contenido activo">
-<ul class="lista-noticias">
-  <li><a href="https://boletinaldia.sld.cu/aldia/2026/04/21/enfermedad-de-pompe-sin-distincion-de-edades/" target="_blank">Enfermedad de Pompe, sin distinción de edades</a></li>
-  <li><a href="https://ejemplo.com/noticia2" target="_blank">Segundo refuerzo contra COVID, útil en población vulnerable</a></li>
-  <li><a href="https://ejemplo.com/noticia3" target="_blank">Detectada una variante recombinante del SARS-CoV-2</a></li>
-  <li><a href="https://ejemplo.com/noticia4" target="_blank">Una persona muere cada 48 segundos a causa del hambre</a></li>
-  <li><a href="https://ejemplo.com/noticia5" target="_blank">La viruela del mono es una enfermedad benigna pero molesta</a></li>
-</ul>
-</ul>
-</div>
-<div id="prensa-cubana" class="pestana-contenido">
-<ul class="lista-noticias">
-<li><a href="https://www.expreso.ec/opinion/esta-listo-el-sistema-de-salud-en-ecuador-para-prevenir-epidemias-296580.html" target="_blank>La mala salud de los hospitales</a></li>
-<li><a href="/posts/" target="_blank>Escribe aqui tu segundo titular</a></li>
-<li><a href="/posts/" target="_blank>Escribe aqui tu tercer titular</a></li>
-</ul>
-</div>
+  <div class="widget-pestanas">
+    <button class="pestana activa" onclick="cambiarPestana(event, 'noticias-salud')">Al Día, Noticias de salud</button>
+    <button class="pestana" onclick="cambiarPestana(event, 'prensa-ecuador')">De la prensa ecuatoriana</button>
+  </div>
+  
+  <div id="noticias-salud" class="pestana-contenido activo">
+    <ul class="lista-noticias">
+      <li><a href="https://ejemplo.com/noticia1" target="_blank" rel="noopener">Denuncian la falta de acceso a vacunas en zonas de conflicto</a></li>
+      <li><a href="https://ejemplo.com/noticia2" target="_blank" rel="noopener">Segundo refuerzo contra COVID, útil en población vulnerable</a></li>
+      <li><a href="https://ejemplo.com/noticia3" target="_blank" rel="noopener">Detectada una variante recombinante del SARS-CoV-2</a></li>
+      <li><a href="https://ejemplo.com/noticia4" target="_blank" rel="noopener">Una persona muere cada 48 segundos a causa del hambre</a></li>
+      <li><a href="https://ejemplo.com/noticia5" target="_blank" rel="noopener">La viruela del mono es una enfermedad benigna pero molesta</a></li>
+    </ul>
+  </div>
+  
+  <div id="prensa-ecuador" class="pestana-contenido">
+    <ul class="lista-noticias">
+      <li><a href="https://ejemplo.com/prensa1" target="_blank" rel="noopener">Escribe aquí tu primer titular de prensa ecuatoriana</a></li>
+      <li><a href="https://ejemplo.com/prensa2" target="_blank" rel="noopener">Escribe aquí tu segundo titular</a></li>
+      <li><a href="https://ejemplo.com/prensa3" target="_blank" rel="noopener">Escribe aquí tu tercer titular</a></li>
+    </ul>
+  </div>
 </div>
 
-<!-- WIDGET 2: PROXIMOS EVENTOS -->
+<!-- WIDGET 2: PRÓXIMOS EVENTOS -->
 <div class="widget widget-eventos">
-<div class="eventos-header">
-<span class="eventos-icono">📅</span>
-<span class="eventos-titulo">PROXIMOS EVENTOS</span>
-</div>
-<div class="evento-item">
-<h4 class="evento-nombre">XXII Jornada Cientifica Provincial en Ciencias de la Informacion</h4>
-<p class="evento-fecha">Escribe aqui la fecha del evento</p>
-<a class="evento-enlace" href="/posts/">Mas informacion</a>
-</div>
+  <div class="eventos-header">
+    <span class="eventos-icono">📅</span>
+    <span class="eventos-titulo">PRÓXIMOS EVENTOS</span>
+  </div>
+  <div class="evento-item">
+    <h4 class="evento-nombre">XXII Jornada Científica Provincial en Ciencias de la Información</h4>
+    <p class="evento-fecha">Escribe aquí la fecha del evento</p>
+    <a class="evento-enlace" href="/posts/" target="_blank" rel="noopener">Más información</a>
+  </div>
 </div>
 
 <!-- WIDGET 3: NUESTROS PARTNERS -->
 <div class="widget widget-partners">
-<h3 class="partners-titulo">Nuestros partners</h3>
-<div class="partner-item">
-<img class="partner-img" src="/img/logo1.png" alt="Partner 1">
-<div class="partner-info">
-<span class="partner-etiqueta">Contenido destacado</span>
-<p class="partner-texto">Escribe aqui la descripcion de tu primer partner o patrocinador.</p>
-<span class="partner-por">Patrocinado por: Nombre</span>
-</div>
-</div>
-<div class="partner-item">
-<img class="partner-img" src="/img/logo2.png" alt="Partner 2">
-<div class="partner-info">
-<span class="partner-etiqueta">Contenido destacado</span>
-<p class="partner-texto">Escribe aqui la descripcion de tu segundo partner.</p>
-<span class="partner-por">Patrocinado por: Nombre</span>
-</div>
-</div>
-<div class="partner-item">
-<img class="partner-img" src="/img/logo3.png" alt="Partner 3">
-<div class="partner-info">
-<span class="partner-etiqueta">Contenido destacado</span>
-<p class="partner-texto">Escribe aqui la descripcion de tu tercer partner.</p>
-<span class="partner-por">Patrocinado por: Nombre</span>
-</div>
-</div>
+  <h3 class="partners-titulo">Nuestros partners</h3>
+  <div class="partner-item">
+    <img class="partner-img" src="/img/logo1.png" alt="Partner 1">
+    <div class="partner-info">
+      <span class="partner-etiqueta">Contenido destacado</span>
+      <p class="partner-texto">Escribe aquí la descripción de tu primer partner o patrocinador.</p>
+      <span class="partner-por">Patrocinado por: Nombre</span>
+    </div>
+  </div>
+  <div class="partner-item">
+    <img class="partner-img" src="/img/logo2.png" alt="Partner 2">
+    <div class="partner-info">
+      <span class="partner-etiqueta">Contenido destacado</span>
+      <p class="partner-texto">Escribe aquí la descripción de tu segundo partner.</p>
+      <span class="partner-por">Patrocinado por: Nombre</span>
+    </div>
+  </div>
+  <div class="partner-item">
+    <img class="partner-img" src="/img/logo3.png" alt="Partner 3">
+    <div class="partner-info">
+      <span class="partner-etiqueta">Contenido destacado</span>
+      <p class="partner-texto">Escribe aquí la descripción de tu tercer partner.</p>
+      <span class="partner-por">Patrocinado por: Nombre</span>
+    </div>
+  </div>
 </div>
 
-<!-- Script simple para las pestanas -->
+<!-- Script simple para las pestañas (NO TOCAR) -->
 <script>
 function cambiarPestana(evt, nombre) {
-var i, contenido, pestanas;
-contenido = document.getElementsByClassName("pestana-contenido");
-for (i = 0; i < contenido.length; i++) {
-contenido[i].classList.remove("activo");
-}
-pestanas = document.getElementsByClassName("pestana");
-for (i = 0; i < pestanas.length; i++) {
-pestanas[i].classList.remove("activa");
-}
-document.getElementById(nombre).classList.add("activo");
-evt.currentTarget.classList.add("activa");
+  var i, contenido, pestanas;
+  contenido = document.getElementsByClassName("pestana-contenido");
+  for (i = 0; i < contenido.length; i++) {
+    contenido[i].classList.remove("activo");
+  }
+  pestanas = document.getElementsByClassName("pestana");
+  for (i = 0; i < pestanas.length; i++) {
+    pestanas[i].classList.remove("activa");
+  }
+  document.getElementById(nombre).classList.add("activo");
+  evt.currentTarget.classList.add("activa");
 }
 </script>
