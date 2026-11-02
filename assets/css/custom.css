@@ -288,3 +288,14 @@ color: #9ca3af;
   display: block;
 }
 
+/* ============================================================
+   11. FECHAS PEQUENAS DEBAJO DE LAS NOTICIAS
+   ============================================================ */
+
+.fecha-noticia {
+  display: block;          /* Fuerza a que baje a la siguiente línea */
+  font-size: 0.75rem;      /* Letra más pequeña (aprox. 12px) */
+  color: #6b7280;          /* Color gris elegante */
+  margin-top: 0.2rem;      /* Un pequeño espacio entre el título y la fecha */
+  font-weight: 400;        /* Grosor normal de letra */
+}
