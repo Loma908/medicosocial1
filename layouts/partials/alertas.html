@@ -1,24 +1,28 @@
-<!-- ==================================================
-WIDGETS DE LA PORTADA
-================================================== -->
-
 <!-- WIDGET 1: NOTICIAS -->
 <div class="widget widget-noticias">
   <div class="widget-pestanas">
     <button class="pestana activa" onclick="cambiarPestana(event, 'noticias-salud')">Al Día, Noticias de salud</button>
     <button class="pestana" onclick="cambiarPestana(event, 'prensa-ecuador')">De la prensa ecuatoriana</button>
   </div>
+  
   <div id="noticias-salud" class="pestana-contenido activo">
     <ul class="lista-noticias">
+      
+      <!-- ✅ ESTA SÍ SE MUESTRA (Noticia 1) -->
       <li><a href="https://ejemplo.com/noticia1" target="_blank" rel="noopener">Denuncian la falta de acceso a vacunas en zonas de conflicto</a></li>
-      <li><a href="https://ejemplo.com/noticia2" target="_blank" rel="noopener">Segundo refuerzo contra COVID, útil en población vulnerable</a></li>
-      <li><a href="https://ejemplo.com/noticia3" target="_blank" rel="noopener">Detectada una variante recombinante del SARS-CoV-2</a></li>
+      
+      <!-- ⏸️ ESTAS ESTÁN OCULTAS (Quíteles los símbolos <!-- y --> cuando las tenga listas) -->
+      <!-- <li><a href="https://ejemplo.com/noticia2" target="_blank" rel="noopener">Segundo refuerzo contra COVID, útil en población vulnerable</a></li> -->
+      <!-- <li><a href="https://ejemplo.com/noticia3" target="_blank" rel="noopener">Detectada una variante recombinante del SARS-CoV-2</a></li> -->
+      
     </ul>
   </div>
+
   <div id="prensa-ecuador" class="pestana-contenido">
     <ul class="lista-noticias">
-      <li><a href="https://ejemplo.com/prensa1" target="_blank" rel="noopener">Escribe aquí tu primer titular de prensa ecuatoriana</a></li>
-      <li><a href="https://ejemplo.com/prensa2" target="_blank" rel="noopener">Escribe aquí tu segundo titular</a></li>
+      <!-- ⏸️ Ocultas hasta que tenga titulares reales -->
+      <!-- <li><a href="https://ejemplo.com/prensa1" target="_blank" rel="noopener">Primer titular de prensa ecuatoriana</a></li> -->
+      <!-- <li><a href="https://ejemplo.com/prensa2" target="_blank" rel="noopener">Segundo titular de prensa ecuatoriana</a></li> -->
     </ul>
   </div>
 </div>
